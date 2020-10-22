@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="./img/netflix.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="background">
+        <!-- Cabeçalho -->
+        <header>
+            <img src="/img/logo.png" alt="Logo Netflix">
+        </header>
+        <!-- Form Login -->
+        <main>
+            <div class="black-box">
+                <div class="enter">
+                    <h1>Entrar</h1>
+                    <form action="">
+                        <div class="text">
+                            <label for="login_id">
+                                Email ou número de Telefone<br>
+                                <input type="text" name="login" id="login_id">
+                            </label>
+                        </div>
+                        <div class="text">
+                            <label for="pass_id">
+                                Senha<br>
+                                <input type="password" name="pass" id="pass_id">
+                            </label>
+                        </div>
+                        <button type="submit">Entrar</button>
+                        <div class="caixa">
+                            <span>
+                                <input type="checkbox" name="lembresse" id="lembresse_id">
+                                <p>Lembre-se de mim</p>
+                            </span>
+                            <a href="#">Precisa de ajuda?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="info">
+                    <a href="#">
+                        <img src="/img/facebook.svg" alt="Facebook">
+                        <p>Conectar com Facebook</p>
+                    </a>
+                    <div class="assine-ja">
+                        <p>Novo por aqui?</p>
+                        <a href="#">Assine agora</a>
+                    </div>
+                    <div class="saiba-mais">
+                        <p>
+                            Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.
+                            <button type="button">
+                                <a href="">Saiba mais.</a>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Rodapé -->
+        <footer class="rodape">
+            <div class="container-footer">
+                <div>
+                    <p>Dúvidas? Ligue 
+                        <a href="tel:+0800-071-4631">0800-071-4631</a>
+                    </p>
+                </div>
+                <div class="box-link">
+                    <div class="link">
+                        <a href="">Perguntas frequentes</a><br>
+                        <a href="">Preferências de cookies</a>
+                        <button class="idioma">
+                            <img src="/img/globe.svg" alt="Globe">
+                            <select name="idiomas" id="idiomas_id">
+                                <option value="port" selected>Português</option>
+                                <option value="Eng">English</option>
+                            </select>
+                        </button>
+                    </div>
+                    <div class="link">
+                        <a href="">Centro de Ajuda</a><br>
+                        <a href="">Informações corporativas</a>
+                    </div>
+                    <div class="link">
+                        <a href="">Termos de uso</a>
+                    </div>
+                    <div class="link">
+                        <a href="">Privacidade</a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>        
+</body>
+</html>
